@@ -1,0 +1,30 @@
+[
+    {
+        "title" : "JavaScript para iniciantes",
+        "description" : "Aprenda os conceitos básicos de programação e explore recursos avançados do JavaScript. Instrutores especializados guiarão você passo a passo, com explicações claras e exemplos práticos. Projetos práticos ajudarão você a ganhar confiança e habilidades. Inscreva-se agora e comece a criar suas próprias aplicações web incríveis!"
+    },
+    {
+        "title" : "HTML & CSS",
+        "description" : "Aprenda as bases do desenvolvimento web com HTML e CSS. Instrutores especializados fornecerão explicações claras e exemplos práticos. Explore a criação de layouts, estilos e interatividade para sites incríveis. Projetos práticos ajudarão você a aplicar seus conhecimentos. Inscreva-se agora e comece a construir páginas web incríveis!"
+    },
+    {
+        "title": "Introdução à Programação",
+        "description": "Este curso é projetado para iniciantes sem experiência prévia em programação. Você aprenderá os conceitos fundamentais de programação, como estruturas de controle, tipos de dados e funções. Além disso, você terá a oportunidade de aplicar seu conhecimento através de exercícios práticos e projetos reais. Ao final do curso, você estará apto a escrever programas simples e entender a lógica por trás da programação."
+    },
+    {
+        "title": "Desenvolvimento Web Full Stack",
+        "description": "Neste curso abrangente, você mergulhará no desenvolvimento web full stack, abrangendo tanto o front-end quanto o back-end. Você aprenderá as linguagens e frameworks populares, como HTML, CSS, JavaScript, Node.js e React. Além disso, você explorará conceitos avançados, como banco de dados, autenticação de usuários e implantação de aplicativos. Ao final do curso, você estará preparado para criar e implantar aplicativos web completos."
+    },
+    {
+        "title": "Inteligência Artificial e Aprendizado de Máquina",
+        "description": "Este curso é uma introdução à inteligência artificial e ao aprendizado de máquina. Você aprenderá sobre algoritmos de aprendizado supervisionado e não supervisionado, redes neurais, processamento de linguagem natural e muito mais. Com uma combinação de teoria e prática, você terá a oportunidade de aplicar técnicas de aprendizado de máquina em conjuntos de dados reais e desenvolver modelos preditivos. Ao final do curso, você estará familiarizado com as principais técnicas de IA e ML e suas aplicações."
+    },
+    {
+        "title": "Segurança Cibernética",
+        "description": "Neste curso abrangente de segurança cibernética, você aprenderá a proteger sistemas e redes contra ameaças virtuais. Você estudará os diferentes tipos de ataques cibernéticos, como phishing, ransomware e ataques de força bruta. Além disso, você explorará técnicas de criptografia, políticas de segurança e melhores práticas de proteção de dados. Ao final do curso, você estará apto a identificar vulnerabilidades e implementar medidas eficazes de segurança cibernética."
+    },
+    {
+        "title": "Desenvolvimento de Aplicativos Móveis",
+        "description": "Este curso foca no desenvolvimento de aplicativos móveis para dispositivos iOS e Android. Você aprenderá a criar interfaces de usuário interativas, acessar recursos do dispositivo, como câmera e localização, e armazenar dados localmente. Além disso, você explorará frameworks populares, como React Native e Flutter, para criar aplicativos multiplataforma. Ao final do curso, você estará preparado para desenvolver seus próprios aplicativos móveis e publicá-los nas lojas de aplicativos."
+    }
+]

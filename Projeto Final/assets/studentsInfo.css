@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url("/images/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header {
+    padding: 15px 15px 15px 15px;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+.logo {
+    padding-left: 60px;
+}
+
+.nav{
+    padding-right: 60px;
+    text-align:end;
+}
+
+#back{
+    cursor: pointer;
+}
+
+.column-left {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.column-right {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.wrapper .sidebar{
+    background: rgb(46, 62, 86, 0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper .sidebar ul li a{
+    justify-content: start;
+    text-align: left;
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a:active{
+    color: #0c7db1;
+
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}
+
+
+.row{
+    height: 100%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tabset {
+    padding-right: 5%;
+}
+
+.tab {
+    overflow: hidden;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    background-color: #869295;
+    color: white;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button:focus {
+    background-color: #2E3E56;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
+
+.registerCourse{
+    border-radius: 18px;
+    width: 300px;
+    height: 27px;
+    background-color: #2E3E56;
+    color:white;
+    font-size: 15px;
+}
+
+.deleteCourse{
+    border-radius: 18px;
+    width: 300px;
+    height: 27px;
+    background-color: #2E3E56;
+    color:white;
+    font-size: 15px;
+}
+
+.accordion {
+    background-color: rgb(154, 190, 242, 0.6);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+.active, .accordion:hover {
+    background-color: rgb(154, 190, 242, 0.6);
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: rgb(154, 190, 242, 0.6);
+    display: none;
+    overflow: hidden;
+}
+
+.info {
+    padding: 0 18px;
+    background-color: rgb(154, 190, 242, 0.6);
+    overflow: hidden;
+}
+
+.page-footer {
+    padding: 15px 15px 15px 15px;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 92% auto;
+}
+
+.page-footer .icon{
+    display: inline-block;
+    text-align:end;
+    margin-left: 10px;
+}
+
+#deleteUser {
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+#logout {
+    display: inline-block;
+    padding-right: 60px;
+    cursor: pointer;
+}
+
+.form{
+    width: 70%;
+    height: 90%;
+    padding-left: 100px;
+    position: relative;
+}
+
+.saveEdit {
+    border-radius: 18px;
+    width: 325px;
+    height: 67px;
+    background-color: #2E3E56;
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+input[type] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 20px;
+    background: rgba(211, 233, 240, 0.8);
+    border: 1px solid rgba(128, 163, 173, 0.82);
+    box-shadow: 5px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+.studentInfo{
+    display: none;
+}
+
+.homepage{
+    display: block;
+}
+
+
